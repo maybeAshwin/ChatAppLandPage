@@ -4,10 +4,10 @@ import './Navbar.css';
 const Navbar = () => {
   return (
 
-    <nav className='container '>
+    <nav className='container'>
     <div className='nav'>
       
-        <div className='nav-logo '>chat</div>
+        <div className='nav-logo'>chat</div>
 
         <ul className='nav-menu'>
           <li className='home'>Home</li>
