@@ -1,0 +1,31 @@
+.features{
+    margin: 170px 130px;
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.feature img{
+    width: 70%;
+    display: block;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.feature{
+    flex-basis: 31%;
+    position: relative;
+}
+
+.caption{
+    margin: 15px;
+    font-weight: 600;
+    opacity: 0;
+    padding-bottom: 70%;
+    transition: .8s;
+}
+.feature:hover .caption{
+    padding-top:0 ;
+    opacity: 1;
+}

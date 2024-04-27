@@ -1,0 +1,75 @@
+.chat{
+    margin: 0px 120px;
+    margin-top: 170px;
+}
+
+.chat-text{
+    color: #fff;
+    font-size: 90px;
+    font-weight: 500;
+    line-height: 130px;
+}
+
+.explore{
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: fit-content;
+    margin-top: 50px;
+    padding: 5px 8px;
+    padding-left: 30px;
+    background-color: white;
+    border-radius: 60px;
+    cursor: pointer;
+
+}
+.explore p{
+    color: #58447c;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.chat-dot-play{
+    margin-top: 1px;
+    display: flex;
+    justify-content:space-between ;
+}
+
+.chat-dots{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.chat-dot{
+    width: 15px;
+    height: 15px;
+    background:#fff ;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+
+.chat-dot.orange{
+    background: orangered;
+}
+
+
+.chat-play{
+    margin-left: 1000px;
+    display: flex;
+    align-items:center;
+    gap: 30px;
+
+}
+.chat-play p{
+    color: #fff;
+    font-size: 19px;
+}
+.chat-play img{
+    width: 50px;
+}
+

@@ -1,0 +1,30 @@
+.info2{
+    margin: 200px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.info2-right{
+    flex-basis: 50%;
+}
+.info2-left{
+    flex-basis: 56%;
+    margin-left: 10px;
+}
+.free{
+    border-radius: 20px;
+    width: 120%;
+}
+.info2 h2{
+    font-size:30px ;
+    color: #58447c;
+    font-weight: 600;
+}
+
+.info2 p{
+    color: #676767;
+    margin-bottom: 15px;
+    font-size: 25px;
+}

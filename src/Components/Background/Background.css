@@ -1,0 +1,23 @@
+.Background{
+    min-height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: none;
+    position:absolute;
+    object-fit: cover;
+    z-index: -1;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7));
+}
+
+
+@keyframes fadeIn{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.fade-in{
+    animation: fadeIn 500ms ease-in-out;
+}

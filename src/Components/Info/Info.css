@@ -1,0 +1,37 @@
+.info{
+    margin: 200px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.about-left{
+    flex-basis: 50%;
+}
+.about-right{
+    flex-basis: 56%;
+    margin-left: 200px;
+}
+.no-Ads{
+    border-radius: 20px;
+    width: 120%;
+}
+.info h2{
+    font-size:30px ;
+    color: #58447c;
+    font-weight: 600;
+}
+
+.info p{
+    color: #676767;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.info h1{
+    margin: 20px 10px;
+    font-size: 38px;
+    color: #452d70;
+    margin-top: 5px ;
+    text-transform: none;
+}
