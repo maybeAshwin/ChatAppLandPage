@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react"
 import Background from "./Components/Background/Background";
-import Navbar from "./Components/Navbar/Navbar";
 import Chat from "./Components/Chat/Chat";
 import Features from "./Components/Features/Features";
 import Title from "./Components/Title/Title";
 import Info from "./Components/Info/Info";
 import Info2 from "./Components/Info2/Info2"
+import Footer from "./Components/Footer/Footer";
+import Navbar from "./Components/Navbar/Navbar";
 
 const App = () => {
     let chatData=[
@@ -22,7 +23,7 @@ const App = () => {
       }, 5000);
     },[])
 
-  return (
+    return (
     <div>
       <Background playStatus={playStatus} chatCount={chatCount}/>
       <Navbar/>
@@ -39,6 +40,7 @@ const App = () => {
         <Title/>
         <Info/>
         <Info2/>
+        <Footer/>
       </div>
       
     </div>

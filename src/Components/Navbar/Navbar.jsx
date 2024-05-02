@@ -6,12 +6,11 @@ const Navbar = () => {
 
     <nav className='container'>
     <div className='nav'>
-      
+       
         <div className='nav-logo'>chat</div>
-
         <ul className='nav-menu'>
-          <li className='home'>Home</li>
-          <li className='feature' >Features</li>
+          <li className='home'><a href="#">Home</a></li>
+          <li className='feature' ><a href="#Features">Features</a></li>
           <li className='about'>About</li>
           <li className='contact'>Contact</li>
           <li><button className='sign-btn'>SignUp</button></li>

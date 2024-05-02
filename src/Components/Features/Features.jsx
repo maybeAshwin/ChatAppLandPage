@@ -6,6 +6,7 @@ import img4 from '../../assets/sec.png'
 
 
  function Features() {
+    
   return (
     
     <div className='features'>
@@ -13,7 +14,7 @@ import img4 from '../../assets/sec.png'
         <div className="feature">
             <img src={img1} alt="" />
             <div className="caption">
-                <h2>Encription</h2>
+                <h2>Encryption</h2>
                 <p>AES (Advanced Encryption Standard) is a widely used symmetric encryption algorithm that ensures secure data transmission and storage</p>
             </div>
             </div>
